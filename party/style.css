@@ -1,0 +1,62 @@
+html {
+    font-size: 12px;
+    background: url('back.jpg') top center;
+    background-size: 100%;
+}
+h1{
+    position: absolute;
+    left: 45%;
+    color: #dadada;
+}
+.keys {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    padding: 10%;
+
+}
+.key {
+    /*border: 0.4rem solid blue;*/
+    /*border-radius: 0.5rem;*/
+    /*margin: 1rem;*/
+    /*font-size: 2rem;*/
+    padding: 3rem 3rem;
+    /*transition: all 0.01s ease;*/
+    /*width: 5rem;*/
+    /*text-align: center;*/
+    /*color: black;*/
+    /*text-shadow: 0 0 0.5rem yellow;*/
+    background: #e62143;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    margin: 3px;
+    font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+    font-size: 2.15em;
+    font-weight: 700;
+    line-height: 33.4929px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+    text-underline-offset: 1px;
+    transition: all .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 95%;
+    word-break: break-word;
+    border: 0;
+}
+.key:active,
+.key:focus {
+    border-bottom-style: none;
+    border-color: #dadada;
+    box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+    outline: 0;
+}
+.key:hover {
+    border-bottom-style: none;
+    border-color: #dadada;
+}
